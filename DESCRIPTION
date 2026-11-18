@@ -1,0 +1,36 @@
+Package: SLspatial
+Type: Package
+Title: Spatial Data for Sri Lanka
+Version: 1.0.0
+Authors@R: c(
+    person(
+      given = "Amalan",
+      family = "Mahendran",
+      role = c("aut", "cre"),
+      email = "amalan0595@gmail.com"
+    )
+  )
+Description: Provides spatial datasets representing administrative and
+    electoral boundaries in Sri Lanka. The package includes administrative
+    divisions, electoral polling divisions, and their associated district
+    classifications. Spatial data are provided as simple features ('sf')
+    objects to support geographical visualisation, spatial analysis,
+    and integration with electoral and administrative datasets.
+URL:
+        https://github.com/Amalan-ConStat/SLspatial,https://amalan-constat.github.io/SLspatial/
+BugReports: https://github.com/Amalan-ConStat/SLspatial/issues
+License: MIT + file LICENSE
+Encoding: UTF-8
+Language: en-US
+LazyData: true
+Depends: R (>= 4.1.0)
+Imports: sf
+Suggests: covr, dplyr, ggplot2, knitr, rmarkdown, testthat (>= 3.0.0)
+Config/roxygen2/version: 8.1.1
+Config/testthat/edition: 3
+NeedsCompilation: no
+Packaged: 2026-10-31 10:55:15 UTC; amala
+Author: Amalan Mahendran [aut, cre]
+Maintainer: Amalan Mahendran <amalan0595@gmail.com>
+Repository: CRAN
+Date/Publication: 2026-11-18 10:00:27 UTC
